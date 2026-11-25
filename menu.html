@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our comprehensive catering menu - from appetizers to desserts">
+    <title>Menu - Parteys Catering Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <svg class="logo-icon" viewBox="0 0 50 50" fill="none">
+                    <path d="M25 10L30 15L25 20L20 15L25 10Z" fill="currentColor"/>
+                    <circle cx="25" cy="30" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M15 38L20 35L25 38L30 35L35 38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="brand-name">Parteys</span>
+                    <span class="brand-tagline">Catering Services</span>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Our Menu</h1>
+            <p class="page-description">Delicious options for every taste and occasion</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-section section-padding">
+        <div class="container">
+            <!-- Appetizers -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Appetizers</h2>
+                    <p class="category-desc">Start your event with these delightful bites</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Spring Rolls</h3>
+                            <span class="item-price">₱180/dozen</span>
+                        </div>
+                        <p class="item-description">Crispy vegetable spring rolls served with sweet chili sauce</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Chicken Skewers</h3>
+                            <span class="item-price">₱250/dozen</span>
+                        </div>
+                        <p class="item-description">Grilled chicken satay with peanut sauce</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Cheese Platter</h3>
+                            <span class="item-price">₱450/tray</span>
+                        </div>
+                        <p class="item-description">Assorted cheeses with crackers and fruits</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Lumpia Shanghai</h3>
+                            <span class="item-price">₱200/dozen</span>
+                        </div>
+                        <p class="item-description">Filipino-style meat rolls, perfectly seasoned</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Main Courses</h2>
+                    <p class="category-desc">Hearty and satisfying dishes for the main event</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Roasted Chicken</h3>
+                            <span class="item-price">₱800/whole</span>
+                        </div>
+                        <p class="item-description">Herb-roasted chicken with garlic and lemon</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Beef Caldereta</h3>
+                            <span class="item-price">₱450/kg</span>
+                        </div>
+                        <p class="item-description">Filipino beef stew in tomato sauce</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Fish Fillet</h3>
+                            <span class="item-price">₱350/kg</span>
+                        </div>
+                        <p class="item-description">Pan-seared fish with lemon butter sauce</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Pork Hamonado</h3>
+                            <span class="item-price">₱400/kg</span>
+                        </div>
+                        <p class="item-description">Sweet and savory glazed pork</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Chicken Cordon Bleu</h3>
+                            <span class="item-price">₱180/pc</span>
+                        </div>
+                        <p class="item-description">Breaded chicken stuffed with ham and cheese</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Dishes -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Side Dishes</h2>
+                    <p class="category-desc">Perfect complements to your main course</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Garlic Rice</h3>
+                            <span class="item-price">₱150/kg</span>
+                        </div>
+                        <p class="item-description">Fragrant garlic fried rice</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Mixed Vegetables</h3>
+                            <span class="item-price">₱120/kg</span>
+                        </div>
+                        <p class="item-description">Sautéed seasonal vegetables</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Mashed Potatoes</h3>
+                            <span class="item-price">₱180/kg</span>
+                        </div>
+                        <p class="item-description">Creamy mashed potatoes with butter</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Caesar Salad</h3>
+                            <span class="item-price">₱200/bowl</span>
+                        </div>
+                        <p class="item-description">Fresh romaine with classic Caesar dressing</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Desserts</h2>
+                    <p class="category-desc">Sweet endings to your perfect meal</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Chocolate Cake</h3>
+                            <span class="item-price">₱800/whole</span>
+                        </div>
+                        <p class="item-description">Rich chocolate layer cake</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Fruit Tart</h3>
+                            <span class="item-price">₱700/whole</span>
+                        </div>
+                        <p class="item-description">Fresh fruit on vanilla custard</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Leche Flan</h3>
+                            <span class="item-price">₱250/llanera</span>
+                        </div>
+                        <p class="item-description">Filipino caramel custard</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Fruit Salad</h3>
+                            <span class="item-price">₱300/bowl</span>
+                        </div>
+                        <p class="item-description">Mixed fruits in cream</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Beverages</h2>
+                    <p class="category-desc">Refreshing drinks for every guest</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Fresh Juice</h3>
+                            <span class="item-price">₱150/pitcher</span>
+                        </div>
+                        <p class="item-description">Choice of orange, pineapple, or mango</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Iced Tea</h3>
+                            <span class="item-price">₱120/pitcher</span>
+                        </div>
+                        <p class="item-description">Refreshing lemon iced tea</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Soft Drinks</h3>
+                            <span class="item-price">₱100/case</span>
+                        </div>
+                        <p class="item-description">Assorted sodas, chilled</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 class="item-name">Bottled Water</h3>
+                            <span class="item-price">₱80/case</span>
+                        </div>
+                        <p class="item-description">Purified drinking water</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Section -->
+    <section class="packages-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Package Deals</h2>
+                <p class="section-subtitle">Complete catering packages for your convenience</p>
+            </div>
+
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3 class="package-title">Basic Package</h3>
+                        <div class="package-price">₱350<span>/person</span></div>
+                    </div>
+                    <ul class="package-features">
+                        <li>2 Appetizers</li>
+                        <li>1 Main Course</li>
+                        <li>2 Side Dishes</li>
+                        <li>1 Dessert</li>
+                        <li>1 Beverage</li>
+                        <li>Basic Setup</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary btn-block">Choose Package</a>
+                </div>
+
+                <div class="package-card featured">
+                    <div class="package-badge">Popular</div>
+                    <div class="package-header">
+                        <h3 class="package-title">Premium Package</h3>
+                        <div class="package-price">₱550<span>/person</span></div>
+                    </div>
+                    <ul class="package-features">
+                        <li>3 Appetizers</li>
+                        <li>2 Main Courses</li>
+                        <li>3 Side Dishes</li>
+                        <li>2 Desserts</li>
+                        <li>2 Beverages</li>
+                        <li>Premium Setup & Service</li>
+                        <li>Complimentary Centerpieces</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary btn-block">Choose Package</a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3 class="package-title">Deluxe Package</h3>
+                        <div class="package-price">₱750<span>/person</span></div>
+                    </div>
+                    <ul class="package-features">
+                        <li>4 Appetizers</li>
+                        <li>3 Main Courses</li>
+                        <li>4 Side Dishes</li>
+                        <li>3 Desserts</li>
+                        <li>Unlimited Beverages</li>
+                        <li>Full-Service Staff</li>
+                        <li>Elegant Table Settings</li>
+                        <li>Free Event Coordination</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary btn-block">Choose Package</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Order?</h2>
+                <p class="cta-description">
+                    Contact us today for a customized quote and menu planning consultation.
+                </p>
+                <a href="contact.html" class="btn btn-primary btn-large">
+                    <span>Get Your Quote</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <svg class="logo-icon" viewBox="0 0 50 50" fill="none">
+                            <path d="M25 10L30 15L25 20L20 15L25 10Z" fill="currentColor"/>
+                            <circle cx="25" cy="30" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M15 38L20 35L25 38L30 35L35 38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <div>
+                            <div class="footer-brand-name">Parteys</div>
+                            <div class="footer-tagline">Catering Services</div>
+                            <div class="footer-est">Est. 2017</div>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Creating memorable moments through exceptional cuisine and service.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Wedding Catering</a></li>
+                        <li><a href="#">Corporate Events</a></li>
+                        <li><a href="#">Birthday Parties</a></li>
+                        <li><a href="#">Private Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                            <span>+1 (234) 567-8900</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M2.5 5.83L10 10.83L17.5 5.83M2.5 5.83V14.17C2.5 15.08 3.09 15.83 3.75 15.83H16.25C16.91 15.83 17.5 15.08 17.5 14.17V5.83M2.5 5.83C2.5 4.92 3.09 4.17 3.75 4.17H16.25C16.91 4.17 17.5 4.92 17.5 5.83" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                            <span>info@parteys.com</span>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Parteys Catering Services. All rights reserved. Est. 2017</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
